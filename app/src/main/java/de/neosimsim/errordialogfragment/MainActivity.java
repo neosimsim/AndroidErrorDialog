@@ -39,7 +39,7 @@ public class MainActivity extends Activity implements OnErrorConfirmedListener {
     }
 
     public void showErrorDialog(View view) {
-        ErrorDialogeFragment fragment = new ErrorDialogeFragment();
+        ErrorDialogFragment fragment = new ErrorDialogFragment();
         fragment.setError(new AndroidError(R.string.error_title, R.string.error_msg));
         fragment.setListener(this);
         fragment.show(getFragmentManager(), "error");

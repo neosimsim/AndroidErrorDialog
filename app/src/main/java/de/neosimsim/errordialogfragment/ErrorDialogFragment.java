@@ -6,7 +6,7 @@ import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
-public class ErrorDialogeFragment extends DialogFragment {
+public class ErrorDialogFragment extends DialogFragment {
     private AndroidError error;
     private OnErrorConfirmedListener listener;
 
